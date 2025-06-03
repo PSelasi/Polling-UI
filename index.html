@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polling UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="poll-container">
+    <h2 class="poll-title">What's your favorite programming language?</h2>
+    
+    <div class="poll-option" data-option="javascript">
+        <button class="option-button">JavaScript</button>
+        <div class="result-bar"></div>
+        <span class="vote-count">0</span>
+    </div>
+    
+    <div class="poll-option" data-option="python">
+        <button class="option-button">Python</button>
+        <div class="result-bar"></div>
+        <span class="vote-count">0</span>
+    </div>
+    
+    <div class="poll-option" data-option="java">
+        <button class="option-button">Java</button>
+        <div class="result-bar"></div>
+        <span class="vote-count">0</span>
+    </div>
+    
+    <div class="poll-option" data-option="csharp">
+        <button class="option-button">C#</button>
+        <div class="result-bar"></div>
+        <span class="vote-count">0</span>
+    </div>
+    
+    <div class="total-votes">Total votes: <span id="total">0</span></div>
+    <button class="reset-btn">Reset Poll</button>
+</div>
+<script src="main.js"></script>  
+</body>
+</html>
